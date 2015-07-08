@@ -15,3 +15,14 @@ $(document).ready(function(){
 });
 
 
+function newGame() {
+	var randomNumber = randomizer(1, 100);
+	console.log(randomNumber);
+};
+
+function randomizer(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+};
+
+
+
