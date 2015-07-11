@@ -1,0 +1,26 @@
+else if (previousGuess) {
+		console.log ("previous Guess: " + previousGuess);
+		if (previousDiff > )
+
+
+
+=======
+
+			if (previousGuess) {
+			if (previousDiff > difference) {
+				$("#feedback").text("You're getting hotter!");
+			} else if (previousDiff < difference) {
+				$("#feedback").text("You're getting colder!");
+			}	
+
+
+
+=======
+
+			var previousDiff = Math.abs(previousGuess - correctNum);
+		if (previousDiff > difference) {
+				$("#feedback").text("You're getting hotter!");
+			} else {
+				$("#feedback").text("You're getting colder!");
+			}
+	}
